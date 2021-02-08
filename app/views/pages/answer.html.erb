@@ -1,0 +1,11 @@
+<%# display the question %>
+<%# display the answer of the coach %>
+<%# If the message is I am going to work, the coach will answer Great! %>
+<%# If the message has a question mark ? at the end, the coach will answer Silly question, get dressed and go to work!. %>
+<%# Otherwise the coach will answer I don't care, get dressed and go to work! %>
+
+<%# answer = we caspture the imput of the user %>
+<h1>stupid coach</h1>
+ <% answer = gets.chomp%>
+<%until answer == "i am going to work"
+  puts "i don't care, get dressed and go to work"%>

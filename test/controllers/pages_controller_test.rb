@@ -4,6 +4,9 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end
-  def action
+  def ask
+  end
+
+  def answer
   end
 end
